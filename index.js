@@ -23,7 +23,7 @@ MongoClient.connect(url, (err, client) => {
 
 app.get('/', (req, res) => {
     
-    res.sendFile('/home/aamir/node_project/index.html');
+    res.sendFile('/home/ec2-user/studentdataapp/index.html');
 });
 
 app.post('/post-data', (req, res) => {
