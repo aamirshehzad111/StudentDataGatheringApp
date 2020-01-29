@@ -3,7 +3,7 @@ var app = express();
 
 app.get('/', (req, res) => {
     
-    res.sendFile('/home/ec2-user/studentdataapp/index.html);
+    res.sendFile('/home/ec2-user/studentdataapp/index.html');
 });
 
 var server = app.listen(8999, () =>{
