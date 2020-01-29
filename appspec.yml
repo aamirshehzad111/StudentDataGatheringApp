@@ -7,13 +7,13 @@ files:
 hooks:
   BeforeInstall:
     - location: before_install.sh
-      timeout: 300
+      timeout: 600
       runas: root
   AfterInstall:
     - location: after_install.sh
-      timeout: 300
+      timeout: 600
       runas: root
   ApplicationStart:
     - location: application_start.sh
-      timeout: 300
+      timeout: 600
       runas: root
