@@ -1,0 +1,28 @@
+<table border='2px' width='400px' height='150px' style='padding: 10px'>
+  <thead style='background-color:yellow'>
+
+  <th>Name</th>
+  <th>Father Name</th><th>Univeristy</th>
+  <th>Dept</th>
+  <th>Degree</th>
+  <th>CGPA</th>
+  <th>Delete</th>
+  <th>Update</th>
+  </thead>
+  
+
+  <% for(var i=0; i<studentData.length; i++) {%>
+    <tr style='padding:5px' align='center' class="studentData">
+      <td><%= studentData[i].sname %></td> 
+      <td><%= studentData[i].fname %></td>
+      <td><%= studentData[i].uni %></td>
+      <td><%= studentData[i].dept %></td>
+      <td><%= studentData[i].deg %></td>
+      <td><%= studentData[i].cgpa %></td>
+      <td><a href="/update/<%= studentData[i]._id %>">update</a></td>
+      <td><a href="/delete/<%= studentData[i]._id %>">delete</a></td>
+
+    </tr>
+  <% } %>
+</table>
+<a href="/"><input type="submit" value="Add Record" name='submitd'></a>
