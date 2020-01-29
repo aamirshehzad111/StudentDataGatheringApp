@@ -1,11 +1,11 @@
 {
-  "name": "node_project",
+  "name": "studentdataapp",
   "version": "1.0.0",
   "description": "Package for dependanices",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "node server.js"
+    "start": "node index.js"
   },
   "author": "Aamir Shehzad",
   "license": "ISC",
