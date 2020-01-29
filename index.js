@@ -18,7 +18,7 @@ app.post('/post-data', (req, res) => {
         cgpa : req.body.cgpa
     };
     
-    res.send(obj);
+    res.send('Data is \n'+obj);
     
 });
 
