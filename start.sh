@@ -1,0 +1,2 @@
+cd StudentDataGatheringApp
+npm install
