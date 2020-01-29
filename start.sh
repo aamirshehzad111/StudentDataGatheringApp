@@ -1,2 +1,2 @@
-cd StudentDataGatheringApp
-npm install
+#!/bin/bash 
+npm run
