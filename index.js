@@ -75,7 +75,7 @@ app.post('/update-data', (req, res) => {
     db.collection('studentData').update({_id: update_id}, req.body, (err, result) =>{
         if(err) throw err;
         else{
-            console.log('saved to database');
+            console.log('saved to database..');
             res.redirect('/show');
         }
     });
